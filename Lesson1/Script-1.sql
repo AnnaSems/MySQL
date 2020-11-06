@@ -1,0 +1,10 @@
+CREATE TABLE user
+(
+id INT UNSIGNED NOT NULL,
+name VARCHAR(255));
+
+
+INSERT INTO user VALUES(1, 'OLGA');
+
+SELECT * FROM example.user;
+
