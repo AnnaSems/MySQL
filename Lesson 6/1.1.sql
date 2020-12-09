@@ -1,0 +1,4 @@
+START TRANSACTION;
+INSERT INTO sample.user SELECT * FROM shop.users WHERE id = 1;
+DELETE FROM shop WHERE id = 1;
+COMMIT;
