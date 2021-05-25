@@ -1,1 +1,1 @@
-# MySQL
+# Database MySQL GameShop project
